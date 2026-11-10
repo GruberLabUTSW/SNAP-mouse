@@ -96,7 +96,7 @@ seurat_clean_cdki <- subset(seurat_obj_cdki_clean, subset = scDblFinder.class ==
 seurat_clean_ccl4 <- subset(seurat_obj_ccl4_clean, subset = scDblFinder.class == "singlet")
 seurat_clean_ccl4_cdki <- subset(seurat_obj_ccl4_cdki_clean, subset = scDblFinder.class == "singlet")
 
-all_markers <- readRDS("/work/InternalMedicine/s229019/2026_5_5_scRNA_seq/stst_all_markers.rds")
+all_markers <- readRDS("2026_5_5_scRNA_seq/stst_all_markers.rds")
 
 library(dplyr)
 top_markers <- all_markers %>%
